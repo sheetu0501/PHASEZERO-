@@ -1,0 +1,16 @@
+server:
+  port:80
+spring:
+  application:
+    name: Phasezero
+  datasource:
+    url: jdbc:mysql://localhost:3306/Phasezero?createDatabaseIfNotExist=true
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        formate_sql:true
